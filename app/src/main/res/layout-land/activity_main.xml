@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|center"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select User:"
+        android:layout_row="0"
+        android:layout_column="1"/>
+    <ImageButton
+        android:id="@+id/rev1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OnRev1"
+        android:src="@drawable/rev1"
+        android:layout_row="1"
+        android:layout_column="0"/>
+
+    <ImageButton
+        android:id="@+id/rev2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OnRev2"
+        android:src="@drawable/rev2"
+        android:layout_row="1"
+        android:layout_column="1"/>
+
+    <ImageButton
+        android:id="@+id/rev3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OnRev3"
+        android:src="@drawable/rev3"
+        android:layout_row="1"
+        android:layout_column="2"/>
+</GridLayout>

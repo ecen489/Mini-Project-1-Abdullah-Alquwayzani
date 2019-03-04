@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".quiz">
+    <fragment
+        android:id="@+id/mainFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_topics_list"
+        android:name="com.example.miniproject1.topicsList"
+        android:layout_weight="3"
+        />
+    <fragment
+        android:id="@+id/questionFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_question"
+        android:name="com.example.miniproject1.question"
+        android:layout_weight="1"/>
+
+</LinearLayout>
